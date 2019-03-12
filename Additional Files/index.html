@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<div id="menu">
+<li><a href="#about">About Me</a></li>
+<li><a href="#photos">My Photos</a></li>
+<li><a href="#playlist">My Playlist</a></li>
+<li><a href="#like">Like</a></li>
+<li><a href="#qrcoder">QR code</a></li>
+<li><a href="#spa">Q&A</a></li>
+<li><a href="#contact">Contact Me</a></li>
+</div>
+		  
+<section id="about" class="section">
+<br/>
+<h1>about me:</h1>
+<br/>
+<br/>
+<br/>
+I am Ragnar Lodbrok the greatest viking from the 9th century.
+<br/>
+<br/>
+</section>
+<section id="photos" class="section">
+<h1>my photos:</h1>
+<br/>
+<img src=ragner.jpg width=200 height=300/>
+<img src=ragnerSword.jpg width=400 height=300/>
+<img src=ragnerCrazy.jpg width=200 height=300/>
+<br/>
+</section>
+<section id="playlist" class="section">
+<br/>
+<br/>
+<h1>my playlist:</h1>
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL99gu3OEe7OGPt2DAKKTHUMAhcgDs8mQ7" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br/>
+<br/>
+</section>
+
+<section id="like" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h1>give me a like:</h1>
+<br/>
+<iframe src="http://www.facebook.com/plugins/like.php?href=file:///C:/Users/nivdu/Desktop/%D7%A1%D7%91%D7%99%D7%91%D7%95%D7%AA%20%D7%A4%D7%99%D7%AA%D7%95%D7%97%20%D7%91%D7%90%D7%99%D7%A0%D7%98%D7%A8%D7%A0%D7%98/%D7%A2%D7%91%D7%95%D7%93%D7%95%D7%AA/%D7%A2%D7%91%D7%95%D7%93%D7%94%201/Ass1/Additional%20Files/index.html&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=80&amp" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>
+<br/>
+<br/>
+</section>
+
+<section id="qrcoder" class="section">
+<br/>
+<br/>
+<br/>
+<h1>scan my code:</h1>
+<br/>
+<img src=qrCode.png width=300 height=300/>
+<br/>
+<br/>
+</section>
+
+<section id="spa" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h1>ans</h1>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="contact" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h1>contact me</h1>
+<br/>
+<br/>
+<br/>
+</section>
+
+
+<script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+</script>
+<script type="text/javascript">
+ $(document).scroll(function() {
+    $('#menu').toggle($(this).scrollTop()>1000)
+ });​
+ </script>
+</body>
+</html>
